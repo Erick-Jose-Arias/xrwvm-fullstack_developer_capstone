@@ -1,9 +1,11 @@
+
 <html>
 <head>
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
+
+<body>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Dealerships</h2>
@@ -25,52 +27,54 @@
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      <h1>Contact Us</h1>
-      <p> At Best Cars Dealership, we’re committed to delivering exceptional service across all five of our dealership locations. Whether you’re looking for a new vehicle, scheduling maintenance, or have questions about financing, our team is here to help.
-      Choose the branch nearest you or reach out through our general support channels below. <p>
-      <section>
-        <h2>📞 General Support </h2> 
-        <pre> Phone: (800) 555‑0147
-        ail: support@premierautogroup.com
-        </pre>
-        <h3> Hours:</h3>
-        <pre>
-        Mon–Fri: 8:00 AM – 7:00 PM \n
-        Sat: 9:00 AM – 6:00 PM \n
-        Sun: Closed \n
-        </pre>
-        <h2> Our Locations </h2>
-       </section>
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
-        </div>
-      </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
+  <div class="card shadow-lg" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="card-body p-5">
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+      <h1 class="text-center mb-4">Contact Us</h1>
+
+      <p class="text-center text-muted mb-5">
+        At Best Cars Dealership, we’re committed to delivering exceptional service across all five 
+        of our dealership locations. Whether you’re looking for a new vehicle, scheduling maintenance, 
+        or have questions about financing, our team is here to help.
+        Choose the branch nearest you or reach out through our general support channels below.
+      </p>
+
+      <div class="row">
+
+        <!-- Contact Info -->
+        <div class="col-md-6 mb-4">
+          <h3 class="mb-3">📞 General Support</h3>
+
+          <div class="p-3 border rounded bg-light mb-3">
+            <p class="mb-1"><strong>Phone:</strong> (800) 555‑0147</p>
+            <p class="mb-0"><strong>Email:</strong> support@bestcarsdealership.com</p>
+          </div>
+        </div>
+
+        <!-- Hours of Operations -->
+        <div class="col-md-6 mb-4">
+          <h3 class="mb-3">⏰ Hours of Operation</h3>
+
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Mon–Fri:</span>
+              <strong>8:00 AM – 7:00 PM</strong>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Sat:</span>
+              <strong>9:00 AM – 6:00 PM</strong>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Sun:</span>
+              <strong>Closed</strong>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
